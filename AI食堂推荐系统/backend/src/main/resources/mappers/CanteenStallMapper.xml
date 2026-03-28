@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.CanteenStallMapper">
+    <insert id="insert" parameterType="com.example.demo.entity.CanteenStall">
+        INSERT INTO canteen_stalls (stall_name, avg_time, queue_length)
+        VALUES (#{stallName}, #{avgTime}, #{queueLength})
+    </insert>
+    
+    <select id="findAll" resultType="com.example.demo.entity.CanteenStall">
+        SELECT id, stall_name as stallName, avg_time as avgTime, queue_length as queueLength
+        FROM canteen_stalls
+    </select>
+</mapper>
