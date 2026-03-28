@@ -10,13 +10,13 @@ const CONFIG = {
     // Minimax API 配置（请替换为真实 API Key）
     MINIMAX_API_KEY: '299E737B209FFF319D93950464686FE5',
     MINIMAX_API_URL: 'https://api.minimax.chat/v1/text/chatcompletion_v2',
-    
+
     // 后端接口地址
-    BACKEND_URL: '/submit_preference',
-    
+    BACKEND_URL: 'http://localhost:8080/user/1',
+
     // 是否使用模拟数据（开发/演示模式）
     USE_MOCK: false, // 已切换到真实 Minimax API
-    
+
     // 请求超时时间（毫秒）
     TIMEOUT: 30000
 };
@@ -107,7 +107,7 @@ function addUserMessage(text) {
  */
 function addAIMessage(htmlContent, showTyping = false) {
     const messageId = 'msg-' + Date.now();
-    
+
     if (showTyping) {
         // 显示打字动画
         const typingHTML = `
@@ -154,7 +154,7 @@ function addAIMessage(htmlContent, showTyping = false) {
 function replaceTypingWithContent(messageEl, htmlContent) {
     const bubble = messageEl.querySelector('.message-bubble');
     bubble.innerHTML = htmlContent;
-    
+
     // 添加时间戳
     const content = messageEl.querySelector('.message-content');
     if (!content.querySelector('.message-time')) {
@@ -227,7 +227,7 @@ async function extractParamsWithMinimax(userInput) {
 
         const data = await response.json();
         const content = data.choices?.[0]?.message?.content || '';
-        
+
         // 解析 JSON 响应
         return parseExtractedParams(content);
     } catch (error) {
@@ -468,7 +468,7 @@ function generateRecommendationHTML(data) {
  */
 async function handleSendMessage() {
     const text = elements.userInput.value.trim();
-    
+
     // 输入验证
     if (!text) {
         return;
@@ -496,10 +496,10 @@ async function handleSendMessage() {
 
         // 构建 AI 回复内容
         let responseHTML = '';
-        
+
         // 显示提取的参数
         responseHTML += generateParamsDisplayHTML(params);
-        
+
         // 显示推荐结果
         responseHTML += generateRecommendationHTML(result);
 
@@ -565,10 +565,10 @@ function initEventListeners() {
  */
 function init() {
     initEventListeners();
-    
+
     // 聚焦输入框
     elements.userInput.focus();
-    
+
     console.log('🍽️ AI Canteen Pilot 已加载完成');
     console.log('配置模式:', CONFIG.USE_MOCK ? '模拟模式' : '真实 API 模式');
 }
