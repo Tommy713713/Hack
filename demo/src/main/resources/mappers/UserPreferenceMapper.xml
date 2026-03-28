@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.UserPreferenceMapper">
+    
+    <resultMap id="UserPreferenceResultMap" type="com.example.demo.entity.UserPreference">
+        <id property="id" column="id"/>
+        <result property="taste" column="taste"/>
+        <result property="budget" column="budget"/>
+        <result property="time" column="time"/>
+        <result property="createdAt" column="created_at"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.example.demo.entity.UserPreference" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO user_preferences (taste, budget, time, created_at)
+        VALUES (#{taste}, #{budget}, #{time}, NOW())
+    </insert>
+    
+</mapper>
