@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>AI 食堂助手 - 智能点餐推荐</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>🍽️ AI 食堂助手</h2>
+            <p>告诉我你的口味、预算、时间和人数，我来帮你推荐菜品~</p>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message ai-message">
+                <div class="message-bubble">
+                    你好！我是你的智能点餐助手。你可以这样告诉我：<br>
+                    “我想吃辣一点，预算10块以内，时间不要超过15分钟，两个人吃”
+                </div>
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="输入你的用餐需求..." autocomplete="off">
+            <button id="sendBtn">发送</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

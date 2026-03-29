@@ -1,0 +1,529 @@
+[
+  {
+    "id": "R001",
+    "name": "青海牛肉拉面",
+    "location": "1食堂",
+    "price_range": "10-15元",
+    "avg_price": 12,
+    "taste": "清淡",
+    "dishes": [
+      "牛肉拉面",
+      "鸡丝拌面",
+      "凉面"
+    ],
+    "features": [
+      "性价比高",
+      "味道好",
+      "热情的阿姨",
+      "早上开得早"
+    ],
+    "wait_time": 8,
+    "description": "1食堂的老店，开很多年了，味道还不错。",
+    "recommendations": [
+      "早上可以来这里吃早餐",
+      "鸡丝拌面是招牌"
+    ]
+  },
+  {
+    "id": "R002",
+    "name": "次坞打面",
+    "location": "2食堂",
+    "price_range": "12-18元",
+    "avg_price": 15,
+    "taste": "辣",
+    "dishes": [
+      "肉丝笋丁面",
+      "汤面",
+      "干拌面"
+    ],
+    "features": [
+      "性价比高",
+      "分量足",
+      "味道好",
+      "加香菜绝配"
+    ],
+    "wait_time": 10,
+    "description": "2食堂的新宠，价格实惠满满一大碗，爱吃面的不二选择。",
+    "recommendations": [
+      "肉丝笋丁面加香菜是绝配",
+      "有汤面和干拌面可选"
+    ]
+  },
+  {
+    "id": "R003",
+    "name": "淮南牛肉汤",
+    "location": "小灶台",
+    "price_range": "16-20元",
+    "avg_price": 18,
+    "taste": "清淡",
+    "dishes": [
+      "牛肉粉丝汤",
+      "白切牛肉乌冬面",
+      "虎皮凤爪"
+    ],
+    "features": [
+      "性价比高",
+      "味道好",
+      "分量足",
+      "食材新鲜"
+    ],
+    "wait_time": 12,
+    "description": "量大，面条劲道，粉丝是粗粉，口感糯叽叽，佐以大量牛肉。",
+    "recommendations": [
+      "牛肉粉丝配饼很好吃",
+      "汤底浓厚纯正"
+    ]
+  },
+  {
+    "id": "R004",
+    "name": "阿兰碧卡",
+    "location": "行政楼-1层/图书馆",
+    "price_range": "50-200元",
+    "avg_price": 80,
+    "taste": "西餐",
+    "dishes": [
+      "牛排",
+      "披萨",
+      "烤翅",
+      "鸡肉卷",
+      "奶昔"
+    ],
+    "features": [
+      "环境好",
+      "白人饭",
+      "拍照出片"
+    ],
+    "wait_time": 20,
+    "description": "校内的西餐厅，适合聚餐和约会。",
+    "recommendations": [
+      "钟楼店的烤翅强推",
+      "图书馆店的鸡肉卷必吃",
+      "奶昔很好喝"
+    ]
+  },
+  {
+    "id": "R005",
+    "name": "泰式打抛饭",
+    "location": "宁诺后街",
+    "price_range": "18-30元",
+    "avg_price": 20,
+    "taste": "辣",
+    "dishes": [
+      "双蛋打抛饭",
+      "单蛋打抛饭",
+      "泰式咖喱鸡肉饭",
+      "牛杂饭"
+    ],
+    "features": [
+      "性价比高",
+      "锅气香",
+      "分量足",
+      "现炒"
+    ],
+    "wait_time": 15,
+    "description": "宁诺后街的烟火气，猛火现炒满满的锅气香，一口穿越曼谷街头。",
+    "recommendations": [
+      "双蛋流心的快乐",
+      "双蛋打抛饭20元性价比拉满",
+      "配泰式奶红/奶绿更划算"
+    ]
+  },
+  {
+    "id": "R006",
+    "name": "喷泉牛杂六拼",
+    "location": "小灶台",
+    "price_range": "10-15元",
+    "avg_price": 10,
+    "taste": "清淡",
+    "dishes": [
+      "牛杂六拼",
+      "牛心",
+      "牛肠",
+      "牛肺",
+      "牛肚",
+      "牛筋",
+      "牛肉"
+    ],
+    "features": [
+      "性价比高",
+      "味道好",
+      "半价活动"
+    ],
+    "wait_time": 8,
+    "description": "满满一小碗，上面有花生、香菜、香葱、红辣椒粒点缀。",
+    "recommendations": [
+      "半价期间性价比超高",
+      "牛筋超好吃",
+      "适合当小吃"
+    ]
+  },
+  {
+    "id": "R007",
+    "name": "东北菜手工水饺",
+    "location": "学府一号",
+    "price_range": "30-40元",
+    "avg_price": 35,
+    "taste": "咸鲜",
+    "dishes": [
+      "锅包肉",
+      "东北大拉皮",
+      "地三鲜",
+      "酸菜冻豆腐",
+      "白菜猪肉饺子"
+    ],
+    "features": [
+      "性价比高",
+      "味道正宗",
+      "适合聚餐",
+      "环境好"
+    ],
+    "wait_time": 25,
+    "description": "宁波大学生聚会必去的东北菜餐馆，8个人7个菜260r吃空盘。",
+    "recommendations": [
+      "锅包肉必点，外脆里嫩",
+      "东北大拉皮每次必点",
+      "人均30-40元"
+    ]
+  },
+  {
+    "id": "R008",
+    "name": "澳洲肉派",
+    "location": "4食堂",
+    "price_range": "25-35元",
+    "avg_price": 30,
+    "taste": "西餐",
+    "dishes": [
+      "鸡胸肉饭",
+      "匈牙利牛肉饭",
+      "洋葱肥牛饭"
+    ],
+    "features": [
+      "健康轻食",
+      "少油少盐",
+      "食材新鲜",
+      "健身减脂"
+    ],
+    "wait_time": 10,
+    "description": "又健康又好吃的轻食，健身减脂人士可放心大胆冲。",
+    "recommendations": [
+      "鸡胸肉饭强推",
+      "匈牙利牛肉饭很好吃",
+      "洋葱肥牛饭推荐"
+    ]
+  },
+  {
+    "id": "R009",
+    "name": "麻辣香锅",
+    "location": "2食堂",
+    "price_range": "15-25元",
+    "avg_price": 18,
+    "taste": "辣",
+    "dishes": [
+      "麻辣香锅",
+      "加油条版香锅"
+    ],
+    "features": [
+      "口感正宗",
+      "物美价廉",
+      "越吃越辣"
+    ],
+    "wait_time": 12,
+    "description": "2食堂的麻辣香锅比3食好吃，加油条超级好吃。",
+    "recommendations": [
+      "一定要加油条",
+      "中辣越吃越辣很过瘾",
+      "跟米饭绝配"
+    ]
+  },
+  {
+    "id": "R010",
+    "name": "章阿姨饺子店",
+    "location": "4食堂",
+    "price_range": "15-20元",
+    "avg_price": 18,
+    "taste": "清淡",
+    "dishes": [
+      "饺子",
+      "南瓜粥"
+    ],
+    "features": [
+      "阿姨热情",
+      "送饮料",
+      "早上开得早"
+    ],
+    "wait_time": 8,
+    "description": "饺子味道还可以，南瓜粥超级好喝，招牌绝对是热情的阿姨。",
+    "recommendations": [
+      "南瓜粥超级好喝",
+      "消费送饮料",
+      "早上可以来喝粥"
+    ]
+  },
+  {
+    "id": "R011",
+    "name": "小辉烧烤",
+    "location": "宁诺后街",
+    "price_range": "20-40元",
+    "avg_price": 30,
+    "taste": "辣",
+    "dishes": [
+      "烤串",
+      "鸡翅",
+      "鸡腿",
+      "掌中宝"
+    ],
+    "features": [
+      "老OG",
+      "味道好",
+      "入味"
+    ],
+    "wait_time": 15,
+    "description": "吃了三年还是喜欢他家的味道，非常入味。",
+    "recommendations": [
+      "吃了三年还是喜欢",
+      "奥尔良蜜汁味好吃",
+      "可以选择辣度"
+    ]
+  },
+  {
+    "id": "R012",
+    "name": "武汉黑鸭",
+    "location": "宁诺后街",
+    "price_range": "15-30元",
+    "avg_price": 20,
+    "taste": "辣",
+    "dishes": [
+      "热卤鸭货",
+      "鸭脖",
+      "鸭翅"
+    ],
+    "features": [
+      "干净",
+      "入味",
+      "阿姨人好"
+    ],
+    "wait_time": 5,
+    "description": "吃了后街所有的鸭货，这家是最好吃的。非常干净而且入味。",
+    "recommendations": [
+      "冬天可以加热后拌",
+      "非常干净",
+      "阿姨人超级好"
+    ]
+  },
+  {
+    "id": "R013",
+    "name": "2食堂的麻辣香锅",
+    "location": "2食堂",
+    "price_range": "13-23元",
+    "avg_price": 18,
+    "taste": "辣",
+    "dishes": [
+      "2食堂的麻辣香锅"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：2食堂的麻辣香锅",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "id": "R014",
+    "name": "餐厅",
+    "location": "未知",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "未知",
+    "dishes": [
+      "餐厅"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：餐厅",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "id": "R015",
+    "name": "2食堂的麻辣香锅",
+    "location": "2食堂",
+    "price_range": "13-23元",
+    "avg_price": 18,
+    "taste": "辣",
+    "dishes": [
+      "2食堂的麻辣香锅"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：2食堂的麻辣香锅",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "id": "R016",
+    "name": "麻辣香锅",
+    "location": "2食堂",
+    "price_range": "13-23元",
+    "avg_price": 18,
+    "taste": "辣",
+    "dishes": [
+      "油条"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "2食堂的麻辣香锅，油条特别好吃，越吃越辣很过瘾",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "id": "R017",
+    "name": "餐厅",
+    "location": "未知",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "未知",
+    "dishes": [
+      "餐厅"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：餐厅",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "id": "R018",
+    "name": "模式",
+    "location": "未知",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "未知",
+    "dishes": [
+      "模式"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：模式",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "id": "R019",
+    "name": "2食堂的麻辣香锅",
+    "location": "2食堂",
+    "price_range": "13-23元",
+    "avg_price": 18,
+    "taste": "辣",
+    "dishes": [
+      "2食堂的麻辣香锅"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：2食堂的麻辣香锅",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "id": "R020",
+    "name": "谢蟹浓",
+    "location": "1食堂",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": null,
+    "dishes": [
+      "五花肉石锅饭"
+    ],
+    "features": [
+      "整个食堂最佳",
+      "令人回味无穷"
+    ],
+    "wait_time": 10,
+    "description": "诺兰二楼的谢蟹浓，整个食堂最佳的存在，五花肉石锅饭让人一遍又一遍爱上",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "id": "R021",
+    "name": "必胜客优享",
+    "location": "商业街",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "西餐",
+    "dishes": [
+      "披萨",
+      "意面"
+    ],
+    "features": [
+      "比普通必胜客便宜",
+      "性价比高"
+    ],
+    "wait_time": 10,
+    "description": "商业街的必胜客优享店，人均15-25元，比普通必胜客便宜",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "id": "R022",
+    "name": "周围有没有必胜客啊",
+    "location": "未知",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "未知",
+    "dishes": [],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：周围有没有必胜客啊",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "id": "R023",
+    "name": "厨创",
+    "location": "校外",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "东北菜",
+    "dishes": [
+      "锅包肉",
+      "鱼香肉丝"
+    ],
+    "features": [
+      "锅包肉正宗",
+      "东北人认证好吃"
+    ],
+    "wait_time": 10,
+    "description": "宝龙印象城的东北菜馆，锅包肉非常正宗，鱼香肉丝也很好吃",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "id": "R024",
+    "name": "王小莜居民楼麻辣烫",
+    "location": "学府一号后街",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "麻辣",
+    "dishes": [
+      "麻辣烫"
+    ],
+    "features": [
+      "自选",
+      "量大管饱"
+    ],
+    "wait_time": 10,
+    "description": "学府一号后街的麻辣烫店，菜品自选，分量足",
+    "recommendations": [
+      "用户推荐"
+    ]
+  }
+]

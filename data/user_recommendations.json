@@ -1,0 +1,241 @@
+[
+  {
+    "name": "2食堂的麻辣香锅",
+    "location": "2食堂",
+    "price_range": "13-23元",
+    "avg_price": 18,
+    "taste": "辣",
+    "dishes": [
+      "2食堂的麻辣香锅"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：2食堂的麻辣香锅",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "餐厅",
+    "location": "未知",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "未知",
+    "dishes": [
+      "餐厅"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：餐厅",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "2食堂的麻辣香锅",
+    "location": "2食堂",
+    "price_range": "13-23元",
+    "avg_price": 18,
+    "taste": "辣",
+    "dishes": [
+      "2食堂的麻辣香锅"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：2食堂的麻辣香锅",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "麻辣香锅",
+    "location": "2食堂",
+    "avg_price": 18,
+    "taste": "辣",
+    "dishes": [
+      "油条"
+    ],
+    "features": [],
+    "description": "2食堂的麻辣香锅，油条特别好吃，越吃越辣很过瘾",
+    "price_range": "13-23元",
+    "wait_time": 10,
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "餐厅",
+    "location": "未知",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "未知",
+    "dishes": [
+      "餐厅"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：餐厅",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "模式",
+    "location": "未知",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "未知",
+    "dishes": [
+      "模式"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：模式",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "2食堂的麻辣香锅",
+    "location": "2食堂",
+    "price_range": "13-23元",
+    "avg_price": 18,
+    "taste": "辣",
+    "dishes": [
+      "2食堂的麻辣香锅"
+    ],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：2食堂的麻辣香锅",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "谢蟹浓",
+    "location": "1食堂",
+    "avg_price": 20,
+    "taste": null,
+    "dishes": [
+      "五花肉石锅饭"
+    ],
+    "features": [
+      "整个食堂最佳",
+      "令人回味无穷"
+    ],
+    "description": "诺兰二楼的谢蟹浓，整个食堂最佳的存在，五花肉石锅饭让人一遍又一遍爱上",
+    "price_range": "15-25元",
+    "wait_time": 10,
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "必胜客优享",
+    "location": "商业街",
+    "avg_price": 20,
+    "taste": "西餐",
+    "dishes": [
+      "披萨",
+      "意面"
+    ],
+    "features": [
+      "比普通必胜客便宜",
+      "性价比高"
+    ],
+    "description": "商业街的必胜客优享店，人均15-25元，比普通必胜客便宜",
+    "price_range": "15-25元",
+    "wait_time": 10,
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "周围有没有必胜客啊",
+    "location": "未知",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "未知",
+    "dishes": [],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：周围有没有必胜客啊",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "厨创",
+    "location": "校外",
+    "avg_price": 20,
+    "taste": "东北菜",
+    "dishes": [
+      "锅包肉",
+      "鱼香肉丝"
+    ],
+    "features": [
+      "锅包肉正宗",
+      "东北人认证好吃"
+    ],
+    "description": "宝龙印象城的东北菜馆，锅包肉非常正宗，鱼香肉丝也很好吃",
+    "price_range": "15-25元",
+    "wait_time": 10,
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "王小莜居民楼麻辣烫",
+    "location": "学府一号后街",
+    "avg_price": 20,
+    "taste": "麻辣",
+    "dishes": [
+      "麻辣烫"
+    ],
+    "features": [
+      "自选",
+      "量大管饱"
+    ],
+    "description": "学府一号后街的麻辣烫店，菜品自选，分量足",
+    "price_range": "15-25元",
+    "wait_time": 10,
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "我想吃辣一点，预算20块以内",
+    "location": "未知",
+    "price_range": "15-25元",
+    "avg_price": 20,
+    "taste": "辣",
+    "dishes": [],
+    "features": [],
+    "wait_time": 10,
+    "description": "用户推荐的餐厅：我想吃辣一点，预算20块以内",
+    "recommendations": [
+      "用户推荐"
+    ]
+  },
+  {
+    "name": "万诺餐厅",
+    "location": "1食堂",
+    "avg_price": 20,
+    "taste": null,
+    "dishes": [
+      "小碗菜",
+      "青海拉面"
+    ],
+    "features": [
+      "性价比之王",
+      "全年无休",
+      "早餐供应(7:15-9:30)"
+    ],
+    "description": "一食堂的万诺餐厅，性价比很高，早餐推荐小碗菜和青海拉面，目前因改造关停，预计2025年8月25日后重新开业",
+    "price_range": "15-25元",
+    "wait_time": 10,
+    "recommendations": [
+      "用户推荐"
+    ]
+  }
+]

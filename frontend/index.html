@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>爱干饭的前辈 - 智能点餐推荐</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>
+                <span>🍜</span> 爱干饭的前辈
+            </h2>
+            <p>告诉我你的口味、预算、时间和人数，我来帮你推荐~</p>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message ai-message">
+                <div class="message-bubble">
+                    今天想吃什么？
+                </div>
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="输入你的用餐需求..." autocomplete="off">
+            <button id="sendBtn">发送</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
