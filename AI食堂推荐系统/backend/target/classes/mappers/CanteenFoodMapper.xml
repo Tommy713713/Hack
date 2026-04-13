@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.CanteenFoodMapper">
+    
+    <resultMap id="CanteenFoodResultMap" type="com.example.demo.entity.CanteenFood">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="taste" column="taste"/>
+        <result property="price" column="price"/>
+        <result property="waitTime" column="wait_time"/>
+        <result property="location" column="location"/>
+        <result property="description" column="description"/>
+    </resultMap>
+
+    <select id="findByBudgetAndTime" resultMap="CanteenFoodResultMap">
+        SELECT * FROM canteen_foods 
+        WHERE price &lt;= #{budget} AND wait_time &lt;= #{time}
+        ORDER BY price ASC
+        LIMIT 5
+    </select>
+
+    <select id="findByTaste" resultMap="CanteenFoodResultMap">
+        SELECT * FROM canteen_foods 
+        WHERE taste = #{taste}
+        ORDER BY price ASC
+        LIMIT 5
+    </select>
+
+    <select id="findByBudgetAndTimeAndTaste" resultMap="CanteenFoodResultMap">
+        SELECT * FROM canteen_foods 
+        WHERE price &lt;= #{budget} AND wait_time &lt;= #{time}
+        <if test="taste != null and taste != ''">
+            AND taste = #{taste}
+        </if>
+        ORDER BY price ASC
+        LIMIT 5
+    </select>
+    
+</mapper>

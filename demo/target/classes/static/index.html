@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Canteen Pilot - 智能食堂推荐助手</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 主容器 -->
+    <div class="app-container">
+        <!-- 顶部导航栏 -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🍽️</span>
+                    <span class="logo-text">AI Canteen Pilot</span>
+                </div>
+                <div class="header-subtitle">智能食堂推荐助手</div>
+            </div>
+        </header>
+
+        <!-- 聊天区域 -->
+        <main class="chat-container">
+            <!-- 消息列表 -->
+            <div class="messages-wrapper" id="messagesWrapper">
+                <!-- 欢迎消息 -->
+                <div class="message message-ai">
+                    <div class="message-avatar">🤖</div>
+                    <div class="message-content">
+                        <div class="message-bubble">
+                            <p>你好！我是你的智能食堂推荐助手 🍜</p>
+                            <p>告诉我你的用餐需求，例如：</p>
+                            <ul class="example-list">
+                                <li>"我想吃辣一点，预算10块以内，时间不要超过15分钟"</li>
+                                <li>"今天想吃清淡的，预算20元左右"</li>
+                                <li>"有什么快餐推荐？5分钟能取餐的"</li>
+                            </ul>
+                        </div>
+                        <div class="message-time">刚刚</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 输入区域 -->
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <textarea 
+                        id="userInput" 
+                        class="input-field" 
+                        placeholder="描述你的用餐需求..."
+                        rows="1"
+                    ></textarea>
+                    <button id="sendBtn" class="send-btn" disabled>
+                        <svg class="send-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="input-hint">按 Enter 发送，Shift + Enter 换行</div>
+            </div>
+        </main>
+    </div>
+
+    <!-- 加载动画 -->
+    <div id="loadingOverlay" class="loading-overlay hidden">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">AI 正在分析你的需求...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
